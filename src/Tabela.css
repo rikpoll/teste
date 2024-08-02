@@ -1,0 +1,51 @@
+
+.elemento {
+    width: 850px;
+    border-radius: 10px;
+    background-color: bisque;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.1)  
+  }
+  
+  .tabela {
+    width: 850px;
+    height: 40px;
+    display: flex;
+    border-radius: 10px;
+    background-color: bisque;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  
+  .tabela p {
+    margin: 7px;
+  }
+  
+  .tabela a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .nome {
+    width: 650px;
+  }
+  
+  .ativo {
+    width: 100px;
+    color: aliceblue;
+    background-color: brown;
+  }
+  
+  .img_abre {
+    margin-top: 2px;
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+    transform: rotate(-0.25turn);
+  }
+  
+  .info {
+    display: none; 
+  }
+  
+  .modalClassName::backdrop {
+    background: rgba(224, 4, 4, 0.5);
+  }
